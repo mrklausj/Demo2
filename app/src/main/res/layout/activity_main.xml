@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:id="@+id/parent"
+    tools:context=".MainActivity">
+
+
+    <CheckBox
+        android:id="@+id/chkKaffe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kaffe" />
+
+    <CheckBox
+        android:id="@+id/chkThe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The" />
+
+    <CheckBox
+        android:id="@+id/chkJuice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Juice" />
+
+    <RadioGroup
+        android:id="@+id/rgPayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbCash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kontant" />
+
+        <RadioButton
+            android:id="@+id/rbCreditCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kreditkort" />
+
+        <RadioButton
+            android:id="@+id/rbBitcoin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bitcoin" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnGoToSecond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gå til Second Activity" />
+
+
+</LinearLayout>
